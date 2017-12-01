@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Nate/Documents/PrgramFiles /C++/CQueue/CQueue.h
+iostream
+-
+cassert
+-
+
+/Users/Nate/Documents/PrgramFiles /C++/CQueue/main.cpp
+iostream
+-
+CQueue.h
+/Users/Nate/Documents/PrgramFiles /C++/CQueue/CQueue.h
+
